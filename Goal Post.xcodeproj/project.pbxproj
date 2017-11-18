@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF7F57531FC0DB9500867E20 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F57521FC0DB9500867E20 /* GoalType.swift */; };
+		BF7F57551FC0E1F700867E20 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F57541FC0E1F700867E20 /* CreateGoalVC.swift */; };
 		BFBC8F0B1FBE2C190022BCF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC8F0A1FBE2C190022BCF1 /* AppDelegate.swift */; };
 		BFBC8F0D1FBE2C190022BCF1 /* GoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */; };
 		BFBC8F101FBE2C190022BCF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBC8F0E1FBE2C190022BCF1 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		BF7F57521FC0DB9500867E20 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		BF7F57541FC0E1F700867E20 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		BFBC8F071FBE2C190022BCF1 /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBC8F0A1FBE2C190022BCF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalVC.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */,
+				BF7F57541FC0E1F700867E20 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFBC8F241FBE3B150022BCF1 /* GoalCell.swift in Sources */,
+				BF7F57551FC0E1F700867E20 /* CreateGoalVC.swift in Sources */,
 				BF7F57531FC0DB9500867E20 /* GoalType.swift in Sources */,
 				BFBC8F0D1FBE2C190022BCF1 /* GoalVC.swift in Sources */,
 				BFBC8F0B1FBE2C190022BCF1 /* AppDelegate.swift in Sources */,
@@ -321,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V836JU6J3D;
 				INFOPLIST_FILE = "Goal Post/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clementm.Goal-Post";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V836JU6J3D;
 				INFOPLIST_FILE = "Goal Post/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clementm.Goal-Post";
 				PRODUCT_NAME = "$(TARGET_NAME)";
