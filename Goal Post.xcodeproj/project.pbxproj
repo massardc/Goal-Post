@@ -12,6 +12,7 @@
 		BF7F57571FC0E3CC00867E20 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F57561FC0E3CC00867E20 /* UIViewControllerExt.swift */; };
 		BF7F57591FC0E6D100867E20 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F57581FC0E6D100867E20 /* UIViewExt.swift */; };
 		BF7F575B1FC0E99800867E20 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F575A1FC0E99800867E20 /* UIButtonExt.swift */; };
+		BF7F575D1FC0EF5200867E20 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F575C1FC0EF5200867E20 /* FinishGoalVC.swift */; };
 		BFBC8F0B1FBE2C190022BCF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC8F0A1FBE2C190022BCF1 /* AppDelegate.swift */; };
 		BFBC8F0D1FBE2C190022BCF1 /* GoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */; };
 		BFBC8F101FBE2C190022BCF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBC8F0E1FBE2C190022BCF1 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		BF7F57561FC0E3CC00867E20 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		BF7F57581FC0E6D100867E20 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		BF7F575A1FC0E99800867E20 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		BF7F575C1FC0EF5200867E20 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		BFBC8F071FBE2C190022BCF1 /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBC8F0A1FBE2C190022BCF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalVC.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */,
 				BF7F57541FC0E1F700867E20 /* CreateGoalVC.swift */,
+				BF7F575C1FC0EF5200867E20 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				BFBC8F0B1FBE2C190022BCF1 /* AppDelegate.swift in Sources */,
 				BF7F57571FC0E3CC00867E20 /* UIViewControllerExt.swift in Sources */,
 				BF7F575B1FC0E99800867E20 /* UIButtonExt.swift in Sources */,
+				BF7F575D1FC0EF5200867E20 /* FinishGoalVC.swift in Sources */,
 				BFBC8F131FBE2C190022BCF1 /* Goal_Post.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
