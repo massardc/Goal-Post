@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF7F57531FC0DB9500867E20 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F57521FC0DB9500867E20 /* GoalType.swift */; };
 		BF7F57551FC0E1F700867E20 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F57541FC0E1F700867E20 /* CreateGoalVC.swift */; };
+		BF7F57571FC0E3CC00867E20 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F57561FC0E3CC00867E20 /* UIViewControllerExt.swift */; };
 		BFBC8F0B1FBE2C190022BCF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC8F0A1FBE2C190022BCF1 /* AppDelegate.swift */; };
 		BFBC8F0D1FBE2C190022BCF1 /* GoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */; };
 		BFBC8F101FBE2C190022BCF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBC8F0E1FBE2C190022BCF1 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		BF7F57521FC0DB9500867E20 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		BF7F57541FC0E1F700867E20 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		BF7F57561FC0E3CC00867E20 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		BFBC8F071FBE2C190022BCF1 /* Goal Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBC8F0A1FBE2C190022BCF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBC8F0C1FBE2C190022BCF1 /* GoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalVC.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		BFBC8F221FBE2D220022BCF1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BF7F57561FC0E3CC00867E20 /* UIViewControllerExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				BF7F57531FC0DB9500867E20 /* GoalType.swift in Sources */,
 				BFBC8F0D1FBE2C190022BCF1 /* GoalVC.swift in Sources */,
 				BFBC8F0B1FBE2C190022BCF1 /* AppDelegate.swift in Sources */,
+				BF7F57571FC0E3CC00867E20 /* UIViewControllerExt.swift in Sources */,
 				BFBC8F131FBE2C190022BCF1 /* Goal_Post.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
